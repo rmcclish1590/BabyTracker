@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+>
+  
+    <CheckBox 
+    	android:id="@+id/chkPoop" 
+  		android:text="@string/poop" 
+  		android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content"
+		android:textSize="30px"
+		android:layout_alignTop="@layout/diaperchange"
+		android:layout_marginTop="10px" />
+  	<CheckBox
+  		android:id="@+id/chkPee"
+  		android:text="@string/pee"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" 
+  		android:textSize="30px"
+  		android:layout_below="@id/chkPoop"
+  		android:layout_marginTop="10px"/>
+  		
+<!--   	<ToggleButton -->
+<!--   		android:height="60px" -->
+<!--   		android:layout_below="@+id/chkPee" -->
+<!--   		android:id="@+id/btnPee"  -->
+<!--   		android:layout_width="fill_parent" -->
+<!--   		android:layout_height="120px" -->
+<!--   		android:textOn="Pooped!" -->
+<!--   		android:textOff="No Poop" -->
+<!--   		android:layout_marginLeft="20px" -->
+<!--   		android:layout_marginRight="20px"/> -->
+<!--   	<DigitalClock  -->
+<!--   		android:id="@+id/clock"  -->
+<!--   		android:layout_width="fill_parent"  -->
+<!--   		android:layout_height="wrap_content"  -->
+<!--   		android:textSize="40px"  -->
+<!--   		android:layout_below="@+id/btnPee" -->
+<!--   		android:layout_marginTop="20px"/> -->
+<!-- 	<TextView -->
+<!-- 		android:id="@+id/txtTime" -->
+<!-- 		android:layout_height="80px" -->
+<!-- 		android:layout_width="fill_parent" -->
+<!-- 		android:layout_marginLeft="10px" -->
+<!-- 		android:layout_marginRight="10px" -->
+<!-- 		android:layout_below="@+id/btnPee" -->
+<!-- 		android:text="Time" -->
+<!-- 		android:textSize="30px" -->
+<!-- 		android:background="#0000aa" -->
+<!-- 		android:gravity="center" -->
+<!-- 		 /> -->
+		
+
+  	<Button
+  		android:id="@+id/submit"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" 
+  		android:text="@string/submit"
+  		android:layout_alignParentBottom="true"
+  		android:gravity="center"/>
+</RelativeLayout>
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BabyTracker</string>
+    <string name="poop">Poop</string>
+    <string name="pee">Pee-pee</string>
+    <string name="submit">save</string>
+</resources>
