@@ -52,10 +52,10 @@ public class BabyTracker extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
-//        switch(requestCode){
-//        case ACTIVITY_CREATE:
-//        	ShowMessage("Back from Diaper Change");
-//        }
+        switch(requestCode){
+        case ACTIVITY_CREATE:
+        	ShowMessage("This is called with button click");
+        }
         
     }
     
